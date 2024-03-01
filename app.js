@@ -7,6 +7,10 @@ const mongodb=require('mongodb') // Mongo pacakge
 
 const app=express()
 
+//Database Folder yet to be called here (MongoDb Atlas
+const db=require('./DATABASE/database');
+
+
 //Ejs Files Path
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','ejs')
