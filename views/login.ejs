@@ -1,0 +1,20 @@
+<%- include('navbar') %>
+<head>
+    <title>Login Console</title>
+</head>
+<br><br><br>
+<center>
+    <h2>Login Console</h2>
+    <br><br>
+    <form action="/login" method="POST">
+        <label for="">Email id</label>
+        <input type="email" placeholder="gmail" required>
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" placeholder="password" required>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</center>
+<br><br><br>
+<%- include('footer') %>

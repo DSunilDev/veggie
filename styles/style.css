@@ -1,0 +1,342 @@
+html{
+   scroll-behavior: smooth;
+}
+.navbar-nav > li{
+    padding-left:34px;
+    padding-right:34px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .navbar-nav > li:hover{
+   border: 1px solid whitesmoke;
+   background-color: aliceblue;
+   border-radius: 22px;
+
+ }
+  .navbar{
+       background-color:rgba(0, 128, 0, 0.726);
+       color: black;
+  } 
+  .navbar-expand-lg > img{
+     margin-left:30px;
+  }
+
+  .navbar-brand{
+    margin-left:40px;
+ }
+
+.searchbar{
+   padding-right: 8px;
+   
+}
+.searchbar svg{
+   position: relative;
+   right: 32px;
+   cursor: pointer;
+   border: 1px solid black;
+   padding: 3px;
+   bottom: 2px;
+}
+.edit{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   background-color: lightgreen;
+  
+}
+ .edit img{
+      filter: contrast(2.2);
+      padding: 20px 20px ;
+     
+ }
+ .edit div{
+   font-weight: bolder;
+   font-size: 30px;
+   text-align: center;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+ }
+  .navbar > a{
+       word-spacing: 3px;
+       letter-spacing: 5px;
+       font-weight: bold;
+  }
+  #about{
+    font-weight: bolder;
+    background-color: #1c1c1c;
+    color: white;
+    
+  }
+  #about h2{
+   text-decoration: underline;
+  }
+  #about p{
+     font-weight: lighter;
+     word-spacing: 2px;
+     letter-spacing: 1.5px;
+     text-align: justify;
+     margin-left: 32px ;
+     color: white;
+  }
+  /* byveggiecontent */
+.vegcontent{
+
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+   
+}
+.vegcontent img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.vegcontent img:hover{
+   filter: contrast(0.4);
+}
+.potatorcon{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.potatorcon img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.potatorcon img:hover{
+   filter: contrast(0.4);
+}
+
+.onionrcon{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.onionrcon img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.onionrcon img:hover{
+   filter: contrast(0.4);
+}
+
+.ladysrcon{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.ladysrcon img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.ladysrcon img:hover{
+   filter: contrast(0.4);
+}
+
+.tomatorcon{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.tomatorcon img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.tomatorcon img:hover{
+   filter: contrast(0.4);
+}
+
+.peanscon{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.peanscon img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.peanscon img:hover{
+   filter: contrast(0.4);
+}
+
+
+.shallotsrcon{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.shallotsrcon img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.shallotsrcon img:hover{
+   filter: contrast(0.4);
+}
+
+.pumpkin{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.pumpkin img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.pumpkin img:hover{
+   filter: contrast(0.4);
+}
+
+.beetroot {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.beetroot img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.beetroot img:hover{
+   filter: contrast(0.4);
+}
+
+.carrot {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.carrot img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.carrot img:hover{
+   filter: contrast(0.4);
+}
+
+.cabbage {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.cabbage img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.cabbage img:hover{
+   filter: contrast(0.4);
+}
+
+.brinjal {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.brinjal img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.brinjal img:hover{
+   filter: contrast(0.4);
+}
+
+.cauli {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   border-color: black;
+}
+
+.cauli img{
+   margin-bottom: 30px;
+   height: 300px;
+   width: 300px;
+   cursor: pointer;
+   border-radius: 50%;
+  
+}
+.cauli img:hover{
+   filter: contrast(0.4);
+}

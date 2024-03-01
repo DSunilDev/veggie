@@ -1,0 +1,29 @@
+<%- include('navbar') %>
+<head>
+    <title>Signup Console</title>
+</head>
+<br><br><br>
+<center>
+    <h3>Signup Console</h3>
+    <br><br>
+    <form action="/signup" method="POST">
+        <label for="">Name</label>
+        <input type="text" placeholder="name">
+        <br><br>
+        <label for="D.O.B">Date Of Birth</label>
+        <input type="date" required>
+        <br><br>
+        <label for="">Place</label>
+        <input type="text" placeholder="Place">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" placeholder="password" required>
+        <br><br>
+        <label for="">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" required>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</center>
+<br><br><br>
+<%- include('footer') %>
