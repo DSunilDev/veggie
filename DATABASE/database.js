@@ -6,7 +6,7 @@ const MongoClient=mongodb.MongoClient;
 let database;
 async function connect()
 {
-  const client=await MongoClient.connect('mongodb+srv://Sunil:SUNIL99@cluster0.70tjind.mongodb.net/?retryWrites=true&w=majority');
+  const client=await MongoClient.connect('');
   database=client.db('abr')
 }
 
