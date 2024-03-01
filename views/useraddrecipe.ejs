@@ -1,0 +1,27 @@
+<%- include('navbar') %>
+<head>
+    <title>User Add Recipe</title>
+</head>
+<br><br><br>
+<center>
+    <h3>Add Recipe | User</h3>
+    <br><br>
+    <form action="/useraddrecipe" method="POST">
+        <br><br>
+        <label for="">Name of the Recipe</label>
+        <input type="text" name="" id="" required>
+        <br><br>
+        <label for="">Description and Nutritional Information</label>
+        <input type="text" required>
+        <br><br>
+        <label for="">Instructions of the Recipe</label>
+        <textarea name="" id="" cols="20" rows="20" required></textarea>
+        <br><br>
+        <label for="">Media Upload</label>
+        <input type="file" required>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</center>
+<br><br><br>
+<%- include('footer') %>

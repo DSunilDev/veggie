@@ -173,6 +173,12 @@ app.get('/shallotsrecipes',function(req,res){
     res.render('shallots')
 })
 
+//User Adding Recipe
+
+app.get('/useraddrecipe',function(req,res){
+    res.render('useraddrecipe')
+})
+
 app.listen(1000)
 
 
